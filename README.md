@@ -1,2 +1,129 @@
 # Start-With-Markdown
 Cú pháp định dạng văn bản trong file Markdown
+
+Trong file Markdown (.md), có nhiều loại cú pháp được sử dụng để định dạng văn bản, tạo danh sách, đánh dấu tiêu đề, và các yếu tố khác. Dưới đây là các loại cú pháp đánh dấu phổ biến trong Markdown:
+
+1. Tiêu đề (Headings)
+Sử dụng dấu # để đánh dấu các cấp tiêu đề. Bạn có thể sử dụng từ 1 đến 6 dấu # cho các tiêu đề từ lớn đến nhỏ.
+
+markdown
+Copy code
+# Tiêu đề cấp 1
+## Tiêu đề cấp 2
+### Tiêu đề cấp 3
+#### Tiêu đề cấp 4
+##### Tiêu đề cấp 5
+###### Tiêu đề cấp 6
+2. Đoạn văn bản (Paragraphs)
+Các đoạn văn bản thông thường chỉ cần viết bình thường mà không cần thêm ký tự đặc biệt nào.
+
+markdown
+Copy code
+Đây là một đoạn văn bản thông thường trong Markdown.
+3. In đậm và in nghiêng (Bold and Italic)
+In nghiêng: Dùng dấu sao * hoặc gạch dưới _ bao quanh từ hoặc câu.
+In đậm: Dùng hai dấu sao ** hoặc hai gạch dưới __ bao quanh từ hoặc câu.
+In đậm và nghiêng: Dùng ba dấu sao *** hoặc ba gạch dưới ___.
+markdown
+Copy code
+*In nghiêng* hoặc _In nghiêng_
+
+**In đậm** hoặc __In đậm__
+
+***In đậm và nghiêng*** hoặc ___In đậm và nghiêng___
+4. Danh sách (Lists)
+a. Danh sách không có thứ tự (Unordered List)
+Dùng các dấu -, *, hoặc + để tạo danh sách không có thứ tự.
+
+markdown
+Copy code
+- Mục 1
+- Mục 2
+  - Mục con 2.1
+  - Mục con 2.2
+* Mục 3
++ Mục 4
+b. Danh sách có thứ tự (Ordered List)
+Sử dụng các con số theo thứ tự kèm dấu chấm . để tạo danh sách có thứ tự.
+
+markdown
+Copy code
+1. Mục 1
+2. Mục 2
+   1. Mục con 2.1
+   2. Mục con 2.2
+3. Mục 3
+5. Liên kết (Links)
+Tạo liên kết bằng cách sử dụng cú pháp:
+
+markdown
+Copy code
+[Text hiển thị](URL)
+
+[Google](https://www.google.com)
+6. Hình ảnh (Images)
+Chèn hình ảnh với cú pháp giống liên kết nhưng có thêm dấu ! ở đầu:
+
+markdown
+Copy code
+![Alt text](URL hình ảnh)
+
+![Logo](https://www.example.com/logo.png)
+7. Trích dẫn (Blockquotes)
+Dùng dấu > để tạo trích dẫn.
+
+markdown
+Copy code
+> Đây là một trích dẫn.
+>> Đây là một trích dẫn lồng.
+8. Code (Mã nguồn)
+a. Code inline
+Để chèn đoạn code ngắn trong dòng văn bản, bạn sử dụng dấu ``` để bao quanh đoạn code.
+
+markdown
+Copy code
+Đây là đoạn code inline: `System.out.println("Hello World");`
+b. Code block
+Để tạo khối code, bạn sử dụng ba dấu \``` trước và sau đoạn code, và có thể chỉ định loại ngôn ngữ lập trình (ví dụ java, python, js`).
+
+markdown
+Copy code
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+9. Bảng (Tables)
+Markdown hỗ trợ tạo bảng bằng cách sử dụng các dấu | để ngăn cách các cột và - để tạo đường phân cách giữa tiêu đề và nội dung bảng.
+
+markdown
+Copy code
+| Cột 1 | Cột 2 | Cột 3 |
+|-------|-------|-------|
+| Hàng 1 | Giá trị 1 | Giá trị 2 |
+| Hàng 2 | Giá trị 3 | Giá trị 4 |
+10. Dòng ngang (Horizontal Rules)
+Dùng ba hoặc nhiều dấu -, *, hoặc _ để tạo một đường ngang.
+
+markdown
+Copy code
+---
+11. Chú thích chân trang (Footnotes)
+Markdown cũng hỗ trợ tạo chú thích chân trang:
+
+markdown
+Copy code
+Đây là một đoạn văn có chú thích[^1].
+
+[^1]: Đây là chú thích chân trang.
+12. Nội dung HTML
+Bạn có thể chèn các phần tử HTML trực tiếp vào file Markdown.
+
+markdown
+Copy code
+<div>
+    <p>Đoạn văn bản trong HTML.</p>
+</div>
+Tóm lại:
+Markdown giúp tạo các file tài liệu dễ đọc và định dạng rõ ràng mà không cần nhiều cú pháp phức tạp.
